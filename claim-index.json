@@ -1,0 +1,245 @@
+[
+  {
+    "id": "criterion",
+    "paper": "Theorem 3.1",
+    "claim": "Eight-witness criterion",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/ArbitraryCuts.lean",
+    "line": 224,
+    "declaration": "CornerArbitraryCuts.sufficient_iff_complete",
+    "group": "witness"
+  },
+  {
+    "id": "ring",
+    "paper": "Theorem 3.1",
+    "claim": "The two witnesses for a fixed six-cycle",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/ArbitraryCuts.lean",
+    "line": 202,
+    "declaration": "CornerArbitraryCuts.ring_sufficient_iff_complete",
+    "group": "witness"
+  },
+  {
+    "id": "known",
+    "paper": "Corollary 3.2",
+    "claim": "Parity-class cover",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/CoverAware.lean",
+    "line": 856,
+    "declaration": "CoverAware.parity_sufficient",
+    "group": "witness"
+  },
+  {
+    "id": "known-two",
+    "paper": "Corollary 3.2",
+    "claim": "Two cuts suffice on a prescribed six-cycle",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/CoverAware.lean",
+    "line": 917,
+    "declaration": "CoverAware.ring_minimum_two",
+    "group": "witness"
+  },
+  {
+    "id": "known-bound",
+    "paper": "Corollary 3.2",
+    "claim": "Two cuts are necessary among unrestricted cuts",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/GeneralGraphCuts.lean",
+    "line": 43,
+    "declaration": "CornerArbitraryCuts.ring_sufficient_card_ge_two",
+    "group": "witness"
+  },
+  {
+    "id": "minimum",
+    "paper": "Corollary 3.3",
+    "claim": "Four universal tests are necessary",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/GeneralGraphCuts.lean",
+    "line": 32,
+    "declaration": "CornerArbitraryCuts.sufficient_card_ge_four",
+    "group": "witness"
+  },
+  {
+    "id": "attainment",
+    "paper": "Corollary 3.3",
+    "claim": "Four parallel edges attain the bound",
+    "source": "probes/ParallelDirections.lean",
+    "line": 24,
+    "declaration": "ManuscriptParallelDirections.optimal",
+    "group": "witness"
+  },
+  {
+    "id": "pairs",
+    "paper": "Proposition 4.1",
+    "claim": "Pair multiplicities by smaller-side size",
+    "source": "refinement/CutSizeIncidence.lean",
+    "line": 51,
+    "declaration": "CornerArbitraryCuts.SizeRefinement.pair_multiplicity_by_smaller_side",
+    "group": "count"
+  },
+  {
+    "id": "matching",
+    "paper": "Theorem 4.2",
+    "claim": "Optimal families cover by disjoint witness pairs",
+    "source": "base/overlay/ProofBench/Research/WitnessPairing.lean",
+    "line": 63,
+    "declaration": "CornerArbitraryCuts.complete_four_iff_pairing",
+    "group": "count"
+  },
+  {
+    "id": "series",
+    "paper": "Theorem 4.2",
+    "claim": "Generating polynomial over a commutative semiring",
+    "source": "refinement/SizeFamilySeries.lean",
+    "line": 156,
+    "declaration": "CornerArbitraryCuts.SizeRefinement.size_series_formula",
+    "group": "count"
+  },
+  {
+    "id": "count",
+    "paper": "Theorem 4.2",
+    "claim": "1,116 labelled families",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/ArbitraryCutCensus.lean",
+    "line": 84,
+    "declaration": "CornerArbitraryCuts.minimumFamilies_card",
+    "group": "count"
+  },
+  {
+    "id": "coefficients",
+    "paper": "Table 2",
+    "claim": "Nine coefficients",
+    "source": "probes/CountingProbe.lean",
+    "line": 32,
+    "declaration": "ManuscriptCountingCheck.expanded",
+    "group": "count"
+  },
+  {
+    "id": "star",
+    "paper": "Theorem 5.1",
+    "claim": "Fixed four-vertex star",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/GeneralGraphCuts.lean",
+    "line": 15,
+    "declaration": "CornerArbitraryCuts.on_star_iff_complete",
+    "group": "graph"
+  },
+  {
+    "id": "connected",
+    "paper": "Theorem 5.1",
+    "claim": "Uniform sufficiency on all connected finite simple graphs",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/GeneralGraphCuts.lean",
+    "line": 19,
+    "declaration": "CornerArbitraryCuts.connected_iff_complete",
+    "group": "graph"
+  },
+  {
+    "id": "all-graphs",
+    "paper": "Theorem 5.1",
+    "claim": "Uniform sufficiency on all finite simple graphs",
+    "source": "base/overlay/ProofBench/PROBLEMS/P118/GeneralGraphCuts.lean",
+    "line": 10,
+    "declaration": "CornerArbitraryCuts.graph_iff_complete",
+    "group": "graph"
+  },
+  {
+    "id": "star-order",
+    "paper": "Theorem 5.1",
+    "claim": "Star order for every nontrivial oriented cut",
+    "source": "probes/StarOrder.lean",
+    "line": 10,
+    "declaration": "ManuscriptGraphCheck.star_order_nontrivial",
+    "group": "graph"
+  },
+  {
+    "id": "lifting",
+    "paper": "Theorem 5.2",
+    "claim": "Order of the lifted separation",
+    "source": "base/overlay/ProofBench/Research/CubicalDiagrams.lean",
+    "line": 228,
+    "declaration": "CubicalDiagrams.order_lift",
+    "group": "graph"
+  },
+  {
+    "id": "coordinates",
+    "paper": "Theorem 5.2",
+    "claim": "Recover the oriented coordinate separation",
+    "source": "base/overlay/ProofBench/Research/CubicalDiagrams.lean",
+    "line": 285,
+    "declaration": "CubicalDiagrams.lift_coordinate",
+    "group": "graph"
+  },
+  {
+    "id": "realize",
+    "paper": "Theorem 5.2",
+    "claim": "Realize arbitrary natural face weights on a finite edgeless host",
+    "source": "base/overlay/ProofBench/Research/CubicalDiagrams.lean",
+    "line": 337,
+    "declaration": "CubicalDiagrams.exists_edgeless_realization",
+    "group": "graph"
+  },
+  {
+    "id": "opposite",
+    "paper": "Section 5",
+    "claim": "Opposite two-coordinate corner order sum",
+    "source": "base/overlay/ProofBench/Research/CubicalExamples.lean",
+    "line": 62,
+    "declaration": "CubicalDiagrams.Square.opposite_order_sum",
+    "group": "graph"
+  },
+  {
+    "id": "large",
+    "paper": "Corollary 5.3",
+    "claim": "Cut bound activated by two large inclusive corners",
+    "source": "base/overlay/ProofBench/Research/LargeCornerCuts.lean",
+    "line": 46,
+    "declaration": "CubicalDiagrams.large_corner_cut",
+    "group": "graph"
+  },
+  {
+    "id": "corner",
+    "paper": "Theorem 6.1",
+    "claim": "Finite-graph 3D Corner Lemma (source Lemma 4.14)",
+    "source": "base/overlay/ProofBench/Research/PaperKeyBridge.lean",
+    "line": 55,
+    "declaration": "PaperCorner.key_lemma_4_14",
+    "group": "cycle"
+  },
+  {
+    "id": "core-corner",
+    "paper": "Theorem 6.1",
+    "claim": "Internal finite-separation version",
+    "source": "base/overlay/ProofBench/Research/KeyCornerLemma.lean",
+    "line": 79,
+    "declaration": "CornerSection.key_lemma_4_14",
+    "group": "cycle"
+  },
+  {
+    "id": "all-crossing",
+    "paper": "Example 6.2",
+    "claim": "All-crossing C24 diagram is a 2-flower",
+    "source": "base/overlay/ProofBench/Research/FlowerCycle24.lean",
+    "line": 149,
+    "declaration": "CornerSection.Cycle24.flower",
+    "group": "cycle"
+  },
+  {
+    "id": "mixed-links",
+    "paper": "Example 6.3",
+    "claim": "Uniform partitions of the mixed diagram",
+    "source": "base/checks/NontrivialNestedCycle.lean",
+    "line": 44,
+    "declaration": "CornerSection.NestedCycle24.partitions",
+    "group": "cycle"
+  },
+  {
+    "id": "mixed",
+    "paper": "Example 6.3",
+    "claim": "Mixed C24 diagram has no flower at any threshold",
+    "source": "probes/CycleAssertions.lean",
+    "line": 117,
+    "declaration": "ManuscriptCycleCheck.mixed_not_flower",
+    "group": "cycle"
+  },
+  {
+    "id": "mixed-two",
+    "paper": "Example 6.3",
+    "claim": "Uniform mixed diagram without a 2-flower",
+    "source": "probes/CycleAssertions.lean",
+    "line": 123,
+    "declaration": "ManuscriptCycleCheck.mixed_uniform_without_two_flower",
+    "group": "cycle"
+  }
+]

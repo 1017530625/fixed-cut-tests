@@ -1,0 +1,63 @@
+{
+  "scope": "Historical local executions of pinned verification tools. No server assessment or ranking is claimed.",
+  "lpbench_commit": "4eb96eb41fa762e44f7015c328e27d5a9df99239",
+  "lean": "4.34.1 (5045d0056413266e57c625dcd7c365b10e377c52)",
+  "tool_commits": {
+    "qedrank": "82417e2269f464c2ce64656ae8dc90c7839595ec",
+    "comparator": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "landrun": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4"
+  },
+  "official_P118": {
+    "theorem": "P118",
+    "challenge": "ProofBench.PROBLEMS.P118.P118",
+    "solution": "Submission.P118",
+    "benchmark_source_sha256": "316555074ba381fc2bfa44da8d859eaf45eeaf95414df8df7fb725e989b92ebf",
+    "submission_sha256": "252d8d2cdacf75500d09637c2d5bd9b9f96b7719e3d8623c7bdfcc1d85c183ae",
+    "qedrank_layer_one": {
+      "executed": "unmodified QEDRank image/check_proof.py on the frozen P118, locally on Windows",
+      "exit": 0,
+      "ok": true,
+      "errors": [],
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "compile_seconds": 21.6,
+      "result_sha256": "869322b934d651a6a43a9dd8ddc6624b55e07fdf4158dd90feac0b15ec6f2a7b",
+      "exit_record_sha256": "2095d5302e465922147e220c0389f7a923ea0c1509a23097f04b3c220798aef8"
+    },
+    "comparator": {
+      "default_kernel_accepted": true,
+      "where": "Linux",
+      "exit": 0,
+      "seconds": 551.52,
+      "complete_log_sha256": "7666586a8b3fd5926c1bcbd470fe315ad37557d327de8a9623c945b893a1937d",
+      "original_input_manifest_sha256": "a54e0bfc479b6c2fbd8f9f0f5e1cd3ebd06cee7fa74bb4b51646c051803a8762"
+    }
+  },
+  "project_defined_4_14": {
+    "theorem": "PaperCorner.key_lemma_4_14",
+    "challenge": "ProofBench.Section4Challenge",
+    "solution": "Submission.Section4Key",
+    "benchmark_task": false,
+    "official_qedrank_run": false,
+    "where": "Linux",
+    "exit": 0,
+    "seconds": 476.62,
+    "kernel": "Lean default",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "challenge_frozen_before_bridge": true,
+    "internal_primary_proof_existed_before_freeze": true,
+    "trusted_pinned_dependency_cache": true,
+    "precompiled_local_modules_supplied": 0,
+    "complete_log_sha256": "70e0e4ff1b44989bfbd6a65081e3539db8300985c59ec2557da4f17f65460474",
+    "original_input_manifest_sha256": "42ccf39496709dfc858a2fbe59530a40446053f7ac13fef4eb64aad376625e1a",
+    "historical_freeze_manifest_sha256": "b2e58aea62427acd4319c6ffccb79fc53f1b8df5a75acc75657be5867ac543b7"
+  }
+}
