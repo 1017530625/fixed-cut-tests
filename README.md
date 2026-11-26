@@ -1,8 +1,14 @@
 # Sharp Fixed Cut Tests for the 3D Corner Lemma
 
-Version 1.0.0 · 25 November 2026 · Lean 4.34.1
+Version 1.0.1 · 26 November 2026 · Lean 4.34.1
 
 The [claim index](CLAIMS.md) links the manuscript results to the corresponding Lean declarations. For offline reading, open fixed-cut-tests-source.html in a browser after extracting the software. The project’s software contributions are available under the [Apache License 2.0](LICENSE). [Sources and attribution](RIGHTS.md) identify the original mathematical results and the external software that the build imports.
+
+## Reproduce Figures 1 and 2
+
+The [figure sources](figures/README.md) draw the alternating matching, its realization on the four-vertex star, and the two separation triples on the 24-cycle. The ReportLab programs construct each edge, vertex and label from the specified mathematical data. The figure guide gives the inputs, commands and expected output checksums.
+
+Version 1.0.1 includes these sources alongside the Lean development. The Lean files and the enumeration programs are byte-identical to the [verified version 1.0.0](https://github.com/1017530625/fixed-cut-tests/releases/tag/v1.0.0). The [citation metadata](CITATION.cff) gives the version-specific software reference.
 
 ## Start with the finite checks
 

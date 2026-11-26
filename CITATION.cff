@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the version used in your work."
+type: software
+title: "Sharp Fixed Cut Tests for the 3D Corner Lemma"
+authors:
+  - family-names: Feng
+    given-names: Mengfei
+version: "1.0.1"
+date-released: "2026-11-26"
+repository-code: "https://github.com/1017530625/fixed-cut-tests"
+url: "https://github.com/1017530625/fixed-cut-tests/releases/tag/v1.0.1"
+license: Apache-2.0

@@ -2,6 +2,10 @@
 
 Apache License 2.0 applies to this project’s own software contributions, including the Lean proof modules and proof fragments, Python verification programs, and project source code displayed in the generated reader. The accompanying instructions, claim index and manifests identify the source files and the inputs needed to reproduce the results. [License text](LICENSE)
 
+## Figure sources
+
+The drawing programs and project-supplied inputs in `figures/` are covered by the Apache License 2.0. Mengfei Feng authorized distribution of the two resulting manuscript figures under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). ReportLab and optional font-processing tools are separate dependencies. Users supply any fonts needed for local font embedding.
+
 ## Mathematics
 
 Romain Bourneuf, Johannes Carmesin, Jan Kurkofka and Tim Planken give the cube and graph corner lemmas in §4 of *An approximate cactus-decomposition for vertex-connectivity*. The fixed-cut tests extend the cube setting of their Lemma 4.1. The finite graph formalization includes their Lemma 4.14. Krishnan Balasubramanian records the ordinary three-cube matching polynomial, including the matching counts 42 and 9 used in the enumeration. [Original corner lemmas](https://arxiv.org/abs/2611.01772v1) · [Matching polynomial, §3(c)](https://www.mdpi.com/2073-8994/15/2/557)
